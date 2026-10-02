@@ -1,0 +1,15 @@
+{
+  "name": "shopvn-vulnlab",
+  "version": "1.0.0",
+  "description": "ShopVN - demo trang ban hang co lo hong bao mat chua va (hoc tap)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "evil": "node evil-server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  }
+}
